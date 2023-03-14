@@ -202,7 +202,7 @@
 				TargetAttributes = {
 					E422DFB61CEF894F0047D7A4 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = R24TLJ3YBG;
+						DevelopmentTeam = BU6GJP6SZ8;
 						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
@@ -411,9 +411,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R24TLJ3YBG;
+				DEVELOPMENT_TEAM = BU6GJP6SZ8;
 				INFOPLIST_FILE = TrueDepthStreamer/Info.plist;
-				INSTALL_PATH = "";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
@@ -422,6 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.TrueDepthStreamer${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "TrueDepthStreamer/TrueDepthStreamer-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -437,9 +438,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R24TLJ3YBG;
+				DEVELOPMENT_TEAM = BU6GJP6SZ8;
 				INFOPLIST_FILE = TrueDepthStreamer/Info.plist;
-				INSTALL_PATH = "";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
@@ -447,6 +448,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.TrueDepthStreamer${SAMPLE_CODE_DISAMBIGUATOR}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "TrueDepthStreamer/TrueDepthStreamer-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TOOLCHAINS = default;
